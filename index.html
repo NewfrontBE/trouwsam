@@ -13,7 +13,7 @@
     <main class="container">
 
     <img src="img/header.png" width="400" alt="" srcset="" style="margin-bottom: 2rem;">
-    <form name="rsvp" netlify>
+    <form name="rsvp" method="post" netlify-honeypot="bot-field" netlify>
 
                         <!-- Select -->
                         <label for="fruit">Ik kom...</label>
@@ -26,6 +26,12 @@
                           <option>Met 5</option>
                           <option>Met 6</option>
                         </select>
+
+                        <p class="hidden" style="display: none;">
+                            <label>
+                              Deze niet invullen :) <input name="bot-field" />
+                            </label>
+                          </p>
 
 
         <!-- Grid -->
