@@ -1,0 +1,9 @@
+.knop {
+  background-color: #b5832d;
+  border: none;
+}
+
+.knop:hover {
+    background-color:#634c0e;
+  border: none;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouw Jessica & Sam</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="default.css">
+
+</head>
+<body>
+    <main class="container">
+
+    <img src="img/header.png" width="400" alt="" srcset="" style="margin-bottom: 2rem;">
+    <form name="rsvp" netlify>
+
+                        <!-- Select -->
+                        <label for="fruit">Ik kom...</label>
+                        <select id="fruit" required>
+                          <option value="" selected>Hoeveel personen?</option>
+                          <option>Alleen</option>
+                          <option>Met 2</option>
+                          <option>Met 3</option>
+                          <option>Met 4</option>
+                          <option>Met 5</option>
+                          <option>Met 6</option>
+                        </select>
+
+
+        <!-- Grid -->
+        <div class="grid">
+  
+
+      
+          <!-- Markup example 1: input is inside label -->
+          <label for="namen">
+            Naam/Namen
+            <input type="text" id="namen" name="namen" placeholder="Namen" required>
+          </label>
+      
+          <!-- <label for="achternaam">
+            Achternaam
+            <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
+          </label> -->
+      
+        </div>
+      
+        <!-- Markup example 2: input is after label -->
+        <label for="allergie">Voedselallergië?</label>
+        <input type="text" id="allergie" name="allergie" placeholder="Ik heb geen allergieën" required>
+        <small>Hiermee bevestig ik mijn aanwezigheid voor het trouwfeest van Jessica en Sam op 4 augustus, 2023</small>
+      
+        <!-- Button -->
+        <button type="submit" class="knop">Verzenden</button>
+      
+      </form>
+      </main>
+</body>
+</html>
