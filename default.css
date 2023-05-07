@@ -1,9 +1,10 @@
-.knop {
+.knop, a {
   background-color: #b5832d;
   border: none;
 }
 
-.knop:hover {
+.knop:hover, a:hover {
     background-color:#634c0e;
   border: none;
 }
+
