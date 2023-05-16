@@ -16,13 +16,21 @@
     <form name="rsvp" method="post" action="/bedankt.html" netlify-honeypot="bot-field" netlify>
 
                         <!-- Select -->
-                        <label for="fruit">Ik kom...</label>
-                        <select id="fruit" required>
+                        <!-- <label for="aanwezigheid">Ik kom...</label>
+                        <select id="aanwezigheid" required>
                           <option value="" selected>Hoeveel personen?</option>
                           <option>Alleen</option>
                           <option>Met 2</option>
                           <option>Niet. Ik zal afwezig zijn.</option>
-                        </select>
+                        </select> -->
+
+                        <!-- nieuwe select -->
+                        <label>Ik kom... <select name="Hoeveel personen[]" multiple>
+                          <option value="alleen">Alleen</option>
+                          <option value="met 2">Met 2</option>
+                          <option value="niet">Niet. Ik zal afwezig zijn.</option>
+                        </select></label>
+                        <!-- nieuwe select einde -->
 
                         <p class="hidden" style="display: none;">
                             <label>
